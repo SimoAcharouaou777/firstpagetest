@@ -312,6 +312,7 @@ header.sticky{
 .newsletter form input:first-child{
 	display: inline-block;
 	width: 100%;
+	margin-left: -160px;
 	padding: 20px 150px 20px 30px;
 	box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
 	outline: none;
@@ -323,6 +324,7 @@ header.sticky{
 	position: absolute;
 	outline: none;
 	border: none;
+	width: 150px;
 	padding: 14px 30px;
 	border-radius: 15px;
 	background: var(--main-color);
@@ -511,9 +513,8 @@ textarea{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 button{
-	background-color: green;
-	border-radius: 20px;
-	border-color:black ;
+	background-color: #6e54fa;
+	border-radius: 10px;
 	font-size: 20px;
 	padding:10px 20px ;
 	text-align: center;
